@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevCareer Track</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>DevCareer Track</h1>
+    <p>Your Interactive Project & Task Hub</p>
+  </header>
+
+  <div class="stats-container">
+    <div class="stat-card">
+      <h3>Total Projects</h3>
+      <p id="total-projects">0</p>
+    </div>
+    <div class="stat-card">
+      <h3>In Progress</h3>
+      <p id="in-progress">0</p>
+    </div>
+  </div>
+
+  <main class="main-content">
+    <section class="form-section">
+      <h2>Add New Project</h2>
+      <form id="project-form">
+        <input type="text" id="project-title" placeholder="Project Title" required>
+        <input type="date" id="project-date" required>
+        <select id="project-status">
+          <option value="In Progress">In Progress</option>
+          <option value="Completed">Completed</option>
+        </select>
+        <button type="submit">Add Project</button>
+      </form>
+    </section>
+
+    <section class="display-section">
+      <h2>Projects</h2>
+      <div id="project-list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
