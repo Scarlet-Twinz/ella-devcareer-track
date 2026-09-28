@@ -60,3 +60,8 @@ GitHub: [@Scarlet-Twinz](https://github.com/Scarlet-Twinz)
 - **Repository:** https://github.com/Scarlet-Twinz/ella-devcareer-track
 - **Author:** Anthony Emmanuella Mmasinachi
 - **GitHub:** https://github.com/Scarlet-Twinz
+## License
+
+MIT License.
+
+See [LICENSE](LICENSE) for the full license text.
